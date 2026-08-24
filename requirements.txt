@@ -1,0 +1,49 @@
+# requirements.txt
+#
+# เวอร์ชันที่ทดสอบแล้วว่าใช้งานได้จริงกับ pipeline นี้ (Windows, Python 3.9,
+# conda env "PointCloud") - บางเวอร์ชันสำคัญมาก อย่าใช้ latest เฉยๆ
+#
+# ติดตั้ง:
+#   pip install -r requirements.txt --break-system-packages
+#   (หรือไม่ใส่ --break-system-packages ถ้าอยู่ใน conda env แยกอยู่แล้ว)
+
+# --- Deep learning ---
+torch==2.5.1+cu121
+torchvision==0.20.1
+# ติดตั้งจาก: pip install torch==2.5.1+cu121 torchvision==0.20.1 --index-url https://download.pytorch.org/whl/cu121
+
+# --- สำคัญมาก: ต้องตรึงเวอร์ชันนี้ ---
+# Pillow 11.x มีปัญหา DLL conflict กับ torchvision 0.20.1 บน Windows
+# (จะ error ตอน import torchvision) - ต้องใช้ 10.4.0 เท่านั้น
+Pillow==10.4.0
+
+# --- ML/data utilities ---
+easydict
+scipy
+opencv-python
+numpy
+pandas
+pyyaml          # ต้อง >= 5.1 (โค้ดถูกแก้ให้ใช้ Loader=yaml.FullLoader แล้ว
+                 # รองรับทั้งเวอร์ชันเก่าและใหม่)
+matplotlib
+tensorboardX
+msgpack
+cython
+cffi
+
+# --- Geospatial ---
+rasterio
+geopandas
+shapely
+pyproj
+fiona
+lxml
+affine
+
+# ==================================================================
+# หมายเหตุสำหรับ predict.py (inference เท่านั้น):
+#   - ไม่ต้องมี resnet101_caffe.pth (pretrained backbone) เพราะโหลด
+#     checkpoint ที่เทรนไว้แล้วโดยตรง (pretrained=False)
+#   - ต้องมี CUDA GPU เสมอ - faster_rcnn_giou.py hardcode .cuda() ใน
+#     forward() ไม่ว่าจะส่ง --cuda หรือไม่ (ข้อจำกัดของโค้ดต้นฉบับ)
+# ==================================================================
