@@ -1,8 +1,7 @@
 """
-15_remove_degenerate_from_splits.py
 
-ตัด building_id ที่เป็น degenerate mask (จาก 14_scan_degenerate_masks.py)
-ออกจาก train.txt, val.txt, test.txt, buffer.txt - สำรองไฟล์เดิมไว้ก่อนเสมอ
+
+
 
 หมายเหตุ: สคริปต์นี้แค่แก้ ImageSets/Main/*.txt เท่านั้น ไม่ได้ลบไฟล์ .png/.xml
 จริงออกจาก JPEGImages/Annotations (เผื่อย้อนกลับ/ตรวจสอบทีหลัง) และไม่ได้
@@ -17,8 +16,8 @@ import shutil
 import datetime
 
 # ---- แก้ path ให้ตรงกับเครื่องคุณ ----
-VOC_ROOT = r"E:\00_3D\14_SAR_\01_Script_\sar_pipeline"
-DEGENERATE_IDS_PATH = r"E:\00_3D\14_SAR_\01_Script_\sar_pipeline\degenerate_building_ids.txt"
+VOC_ROOT = r"path\floder_pipeline"
+DEGENERATE_IDS_PATH = r"path\degenerate_building_ids.txt"
 
 imagesets_dir = os.path.join(VOC_ROOT, "ImageSets", "Main")
 SPLIT_FILES = ["train.txt", "val.txt", "test.txt", "buffer.txt"]

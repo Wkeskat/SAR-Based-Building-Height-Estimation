@@ -356,10 +356,10 @@ def export_percrop_patches(cfg: PerCropExportConfig):
 
 if __name__ == "__main__":
     cfg = PerCropExportConfig(
-        sar_tif_path=r"E:\00_3D\14_SAR_\00_DATA_\IMAGE_HH_SRA_spot_055_tiled.tif",  # Block=256x256 <- updated
-        footprints_pkl_path=r"E:\00_3D\14_SAR_\00_DATA_\footprints_pixel.pkl",
-        bbox_geojson_path=r"E:\00_3D\14_SAR_\00_DATA_\building_bbox_labels.geojson",
-        output_dir=r"E:\00_3D\14_SAR_\01_Script_\sar_pipeline",
+        sar_tif_path=r"path\IMAGE_SRA.tif",  # Block=256x256 <- updated
+        footprints_pkl_path=r"path\footprints_pixel.pkl",
+        bbox_geojson_path=r"path\building_bbox_labels.geojson",
+        output_dir=r"path\floder_pipeline",
         margin_px=0,   # 0 = auto-compute from your data's max layover extension
     )
     export_percrop_patches(cfg)

@@ -1,11 +1,4 @@
 """
-10_resplit_geographic_trainvaltest.py
-
-ขยาย 09_resplit_geographic_percrop.py จาก 2-way split (train/test) เป็น
-3-way split (train/val/test) โดยมี 2 buffer zone (train-val และ val-test)
-ใช้หลักการเดียวกัน: ตัดตามตำแหน่ง column บนภาพ (ซ้าย=train, กลาง=val, ขวา=test)
-พร้อมกันชนที่แต่ละรอยต่อ ป้องกัน leakage
-
 TRAIN_RATIO + VAL_RATIO + TEST_RATIO ต้องรวมกันได้ 1.0
 """
 
@@ -18,10 +11,10 @@ import rasterio
 import geopandas as gpd
 
 # ---- แก้ให้ตรงกับเครื่องคุณ ----
-VOC_ROOT = r"E:\00_3D\14_SAR_\01_Script_\sar_pipeline"
-SAR_TIF_PATH = r"E:\00_3D\14_SAR_\00_DATA_\IMAGE_HH_SRA_spot_055_tiled.tif"
-FOOTPRINTS_PKL_PATH = r"E:\00_3D\14_SAR_\00_DATA_\footprints_pixel.pkl"
-BBOX_GEOJSON_PATH = r"E:\00_3D\14_SAR_\00_DATA_\building_bbox_labels.geojson"
+VOC_ROOT = r"path\floder_pipeline"
+SAR_TIF_PATH = r"path\IMAGE_SRA.tif"
+FOOTPRINTS_PKL_PATH = r"path\footprints_pixel.pkl"
+BBOX_GEOJSON_PATH = r"path\building_bbox_labels.geojson"
 
 TRAIN_RATIO = 0.70
 VAL_RATIO = 0.15

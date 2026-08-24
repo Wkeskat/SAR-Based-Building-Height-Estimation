@@ -1,5 +1,5 @@
 """
-14_scan_degenerate_masks.py
+
 
 สแกนหา degenerate mask (เหมือนที่เจอใน building 62639) ทั่วทั้ง dataset
 (train+val+test รวมกัน) โดยไม่ต้อง reprocess/regenerate อะไรเลย - แค่เปิดไฟล์
@@ -14,7 +14,7 @@ import numpy as np
 from PIL import Image
 
 # ---- แก้ path ให้ตรงกับเครื่องคุณ ----
-VOC_ROOT = r"E:\00_3D\14_SAR_\01_Script_\sar_pipeline"
+VOC_ROOT = r"path\floder_pipeline"
 MIN_MASK_PIXELS = 20  # เกณฑ์เดียวกับที่ใช้ใน sar_building.py v5
 
 

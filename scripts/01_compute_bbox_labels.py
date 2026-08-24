@@ -1,17 +1,4 @@
-"""
-Step 2b: คำนวณ Near-Range Vector + สร้าง Building Bounding Box (B_b) = LABEL
-==============================================================================
 
-Input:
-  - heading_deg     : จาก 02a_compute_heading.py
-  - look_side       : "RIGHT" หรือ "LEFT" (จาก metadata)
-  - footprint (UTM) : shapefile/GeoJSON ที่มี attribute height
-  - incidence angle raster (GeoTIFF) : จาก Phase 1
-
-Output:
-  - footprint polygon เดิม (B_f)
-  - building polygon ที่เลื่อนแล้ว (B_b) = LABEL สำหรับเทรนโมเดล
-"""
 
 import numpy as np
 import geopandas as gpd
@@ -129,8 +116,8 @@ if __name__ == "__main__":
     HEADING_DEG = 349.733          # จาก 02a_compute_heading.py
     LOOK_SIDE = "RIGHT"            # จาก metadata (antenna_pointing)
     HEIGHT_FIELD = "BL_HEIGHT"            #ชื่อ column ความสูงใน footprint file
-    footprint_path =r"E:\00_3D\14_SAR_\00_DATA_\KKC_ SAR_spot_055.geojson"
-    incidence_raster_path = r"E:\00_3D\14_SAR_\00_DATA_\incidence_angle_TDX1.tif"
+    footprint_path =r"path\footprint.geojson"
+    incidence_raster_path = r"path\incidence_angle_TDX1.tif"
 
     # ---- 1) คำนวณ near-range vector ----
     dE, dN, near_range_az = near_range_unit_vector(HEADING_DEG, LOOK_SIDE)
@@ -180,5 +167,5 @@ if __name__ == "__main__":
         geometry=[r["building_bbox_geom"] for r in results],
         crs=gdf.crs,
     )
-    out_gdf.to_file(r"E:\00_3D\14_SAR_\00_DATA_\building_bbox_labels.geojson", driver="GeoJSON")
+    out_gdf.to_file(r"path\building_bbox_labels.geojson", driver="GeoJSON")
     print("บันทึก building_bbox_labels.geojson แล้ว")

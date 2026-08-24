@@ -1,5 +1,5 @@
 """
-10_export_predict_patches.py
+
 
 สร้าง crop สำหรับ "ทำนาย" ความสูงอาคารในพื้นที่ใหม่ (ไม่รู้ความสูงจริง)
 ต่างจาก 04_export_percrop_patches.py ตรงที่:
