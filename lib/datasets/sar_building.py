@@ -200,7 +200,7 @@ class sar_building(imdb):
 
         เมตริกที่รายงาน:
           - Mean/median IoU ระหว่างกล่องทำนาย (B_pred) กับกล่องจริง (B_b,
-            ground truth ที่ผ่านการปรับด้วย layover L=h*cos(theta) จาก Step 3)
+            ground truth ที่ผ่านการปรับด้วย layover L=h*tan(theta) จาก Step 3)
           - สัดส่วนภาพที่ IoU >= 0.5 และ >= 0.7 (threshold มาตรฐานทั่วไป)
           - Mean Absolute Error ต่อพิกัด (xmin,ymin,xmax,ymax) หน่วย pixel -
             xmin คือมิติที่สัมพันธ์กับ layover extension โดยตรง จึงเป็นตัวชี้วัด
@@ -239,7 +239,7 @@ class sar_building(imdb):
             lines.append(f"  {name}: {coord_errors[:, idx].mean():.2f}")
         lines.append("")
         lines.append(
-            "หมายเหตุ: xmin สัมพันธ์กับ layover extension (L = h*cos(theta)) "
+            "หมายเหตุ: xmin สัมพันธ์กับ layover extension (L = h*tan(theta)) "
             "โดยตรง - MAE ของ xmin จึงเกี่ยวข้องกับความแม่นยำการทำนายความสูง "
             "อาคารมากที่สุดในบรรดา 4 พิกัด"
         )
@@ -247,7 +247,7 @@ class sar_building(imdb):
         results_str = "\n".join(lines)
         print(results_str)
 
-        # --- ประเมินความแม่นยำการทำนายความสูงอาคาร (h = L * pixel_spacing / cos(theta)) ---
+        # --- ประเมินความแม่นยำการทำนายความสูงอาคาร (h = L * pixel_spacing / tan(theta)) ---
         # นี่คือ metric จริงที่ paper สนใจ (ไม่ใช่แค่ IoU ของกล่อง) - แปลง L
         # (layover shift ในหน่วย pixel) กลับเป็นความสูงจริง (เมตร) โดย:
         #   1. หา B_f (footprint box) ด้วยวิธีเดียวกับที่โมเดลใช้ตอน inference
@@ -304,8 +304,8 @@ class sar_building(imdb):
             L_true_px = bf_xmin - gt_box[0]
             L_pred_px = bf_xmin - pred_box[0]
 
-            h_true = (L_true_px * PIXEL_SPACING_M) / np.cos(theta_rad)
-            h_pred = (L_pred_px * PIXEL_SPACING_M) / np.cos(theta_rad)
+            h_true = (L_true_px * PIXEL_SPACING_M) / np.tan(theta_rad)
+            h_pred = (L_pred_px * PIXEL_SPACING_M) / np.tan(theta_rad)
 
             h_true_list.append(h_true)
             h_pred_list.append(h_pred)

@@ -264,7 +264,7 @@ def main():
       theta_rad = np.deg2rad(theta_deg)
 
       L_pred_px = bf_xmin - pred_box[0]
-      h_pred = (L_pred_px * pixel_spacing_m) / np.cos(theta_rad)
+      h_pred = (L_pred_px * pixel_spacing_m) / np.tan(theta_rad)
 
       if debug_this:
         logger.info(f"  bf_xmin={bf_xmin}, pred_box[0]={pred_box[0]:.3f}, "
