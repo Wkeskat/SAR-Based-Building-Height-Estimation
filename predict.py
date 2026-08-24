@@ -2,21 +2,7 @@
 predict.py (v5 - consolidated, outputs GeoJSON directly)
 
 รันโมเดลที่เทรนแล้ว ทำนาย bounding box + คำนวณความสูงอาคาร แล้วรวมกับ
-geometry เดิมเป็น GeoJSON เดียว (ไม่ต้องรัน 13_join_predictions_to_footprints.py
-แยกอีกขั้นตอน - รวมไว้ในสคริปต์นี้แล้ว)
-
-ประวัติการแก้ไข (Changelog):
-  v1: ไม่มีการหาร im_scale -> ทำนายความสูงเกินจริง (~50-60m)
-  v2: เพิ่มการหาร im_scale แต่ margin ตอน export ไม่ตรงกับตอนเทรน
-  v3: แก้ margin (override_margin_px=376) - ยัง saturate ที่ ~250m
-  v4: พบ index misalignment จาก roibatchLoader(training=True) - แก้เป็น
-      training=False + fasterRCNN.eval() (ตรงกับ test.py ทุกประการ)
-  v5 (ปัจจุบัน): รวม logic การ join geometry เข้ามาในไฟล์เดียว, เพิ่ม
-      quality_flag, เพิ่มตัวเลือกกรอง building_id ที่รู้ว่า mask เสียหาย
-      (degenerate_ids_path) ก่อนเขียนผลลัพธ์สุดท้าย - เปลี่ยน --checkpoint
-      จาก path เต็มกลับมาเป็นตัวเลข session/epoch/checkpoint (เหมือน test.py)
-      พร้อมตั้งค่า default ให้ตรงกับโมเดลที่เทรนไว้แล้ว (1, 10, 38157) - ใครก็
-      รันได้โดยไม่ต้องรู้ path ของ checkpoint เลย ถ้าใช้โฟลเดอร์ตาม convention
+geometry เดิมเป็น GeoJSON เดียว 
 
 วิธีรัน (ง่ายที่สุด - ใช้ default ทั้งหมด ถ้า checkpoint อยู่ที่
 models/res101/sar_building/faster_rcnn_1_10_38157.pth):

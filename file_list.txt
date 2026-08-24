@@ -50,6 +50,7 @@ E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\ob
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\0c
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\0d
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\10
+E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\11
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\14
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\16
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\18
@@ -96,9 +97,11 @@ E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\ob
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\79
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\7a
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\7b
+E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\7c
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\7f
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\81
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\88
+E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\8a
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\8b
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\8e
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\90
@@ -115,6 +118,7 @@ E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\ob
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\b1
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\b2
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\b7
+E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\ba
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\bd
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\be
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\bf
@@ -150,6 +154,7 @@ E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\ob
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\0c\1c9e22f83512e6cbec795a8f96bde41750dd05
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\0d\20c5ee4c9f77aa32aa8bc053dafcd9521ff871
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\10\a4487442bc7f778051cbf909113c62258c4e3e
+E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\11\33b10b10dc400a7578aeafde1062e602ae6beb
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\14\320415db0eeb661d669b9dad6e0db3cb70fbf3
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\14\896368d90f4229e302adf5ef6d039b2d9b5519
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\16\e95c3de92b108296bd26d5531563342dbfd43d
@@ -157,6 +162,7 @@ E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\ob
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\19\16c8fb74c9d1483d988c0e3504f5ac2c08cd09
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\1b\96d304dae5893aef6a4077545cfd63ea43996e
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\1c\b034a854bdf022967b306e2f9d3856b7de2afd
+E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\20\1c12a4ab0ed300f1d688a2f8df04ca3e064413
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\20\93dbe9dd21fb06968183b6819e35c66fb9d9bb
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\20\d823079a607e305df2a528d34ce7c9f08e4225
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\24\1ae4d80a242ce2c1d0b2bf4d77ac4adb7305ca
@@ -185,6 +191,7 @@ E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\ob
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\54\b19743792d7927f2c490769357c5a87b2ce728
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\54\ce857a8b9b7dbf77874cdd8cd6e85aa1194882
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\58\1c18323758f59f062e71280092c4da19304407
+E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\58\d1c9b1bd68f52636fa5bf823e394d0c4002e8d
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\59\e69f1adc6eea1704ad4e314e95fd922ece98da
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\5a\e36602bd0f7ff3486c04537cca09ede975a563
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\5c\06c073d5b35b233cd8a290ca862a6afe57089c
@@ -203,9 +210,12 @@ E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\ob
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\79\bdd880e5a3f648900bae66021299987ef6ae08
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\7a\1bc896548c15576a8052967049104b07e17565
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\7b\a6a65c52798566f77fff479f6e62fd89ca35ce
+E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\7c\7f913900e481a1f80ba5cabbb1f91cf7275585
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\7f\6f787cf9e7efbc7bfbafd37b6db7a43a272a53
+E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\7f\99ebae7fabaab9bb5bfc23963a85094f3bc5d5
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\81\3bc5dae574c01c612ffa43861d32ce2eb3e638
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\88\6739db99b870d6a172d3e17154e1ac13e5cf4b
+E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\8a\53f269b160d796a323a0cd3abd8e9fd0276ace
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\8b\035f95fad8f1fc5b27c1c99c04e8c82f96b2c3
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\8e\1679f287ea2ecd50aad36e7102f4105e26ed96
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\90\fe0d7b936034fd180ad513e67d2b7e99d4a0c8
@@ -226,6 +236,7 @@ E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\ob
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\b2\6883f25cc82363619586711be38d9894146db3
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\b7\d22abd3cebe55c9a2d3c67d65835b1029df00a
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\b7\d7960059409457315e2e701d509157bf60e884
+E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\ba\1eb5119c0abdc1e3184df637c43849e392220d
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\bd\c926d2875cbbca36d6490686d5e2011a65d096
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\be\3fec3d7a69d66bea446afa82fb020b9fe27d3f
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\.git\objects\be\edc4a2b41bae006733ebedf5dbb25f63b5c329
@@ -373,7 +384,9 @@ E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\lib\roi
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\lib\roi_data_layer\roibatchLoader.py
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\lib\roi_data_layer\roidb.py
 E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\lib\roi_data_layer\__init__.py
-E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\scripts\export_predict_patches.py
-E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\scripts\remove_degenerate_from_splits.py
-E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\scripts\resplit_geographic_trainvaltest.py
-E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\scripts\scan_degenerate_masks.py
+E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\scripts\01_compute_bbox_labels.py
+E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\scripts\02_export_percrop_patches.py
+E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\scripts\03_resplit_geographic_trainvaltest.py
+E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\scripts\04_scan_degenerate_masks.py
+E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\scripts\05_remove_degenerate_from_splits.py
+E:\00_3D\14_SAR_\bboxRegNet4BldHeight_GISTDA\bboxRegNet4BldHeight_GISTDA\scripts\06_export_predict_patches.py

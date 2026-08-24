@@ -316,10 +316,10 @@ def export_predict_patches(cfg: PredictExportConfig):
 
 if __name__ == "__main__":
     cfg = PredictExportConfig(
-        sar_tif_path=r"E:\00_3D\14_SAR_\00_DATA_\IMAGE_HH_SRA_spot_055_tiled.tif",
-        footprint_shp_path=r"E:\00_3D\14_SAR_\01_Script_\Predicted_\Building_for_predict.geojson",
-        georef_xml_path=r"E:\00_3D\14_SAR_\KKN_HS_stereo\GEC\SO_000188901_0019_1\dims_op_oc_dfd2_699921538_1\TSX-1.SAR.L1B\TDX1_SAR__GEC_SE___HS_S_SRA_20231205T111645_20231205T111646\ANNOTATION\GEOREF.xml",
-        output_dir=r"E:\00_3D\14_SAR_\01_Script_\Predicted_\sar_building_predict",
+        sar_tif_path=r"path\tiff",
+        footprint_shp_path=r"path\footprint.geojson",
+        georef_xml_path=r"path\.xml",
+        output_dir=r"path\output",
         override_margin_px=376,   # ต้องตรงกับ margin ตอนเทรนโมเดลจริง (376px)
                                     # ไม่ใช้ assumed_max_height_m อีกต่อไป เพราะ
                                     # ให้ margin ผิด (200px) ทำให้ทำนายความสูง
